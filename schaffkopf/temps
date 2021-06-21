@@ -1,0 +1,9 @@
+#! /usr/bin/perl -w
+
+$celsius = 20;
+while ($celsius <= 45)
+{
+  $fahrenheit = ($celsius * 9 / 5) + 32;  # calculate fahrenheit
+  print "$celsius C is $fahrenheit F.\n";  # report both temps
+  $celsius += 5; 
+}
